@@ -21,7 +21,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 1rem;
+  width: .8rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -30,6 +30,7 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
   background: #10221b;
+  border-radius: 4px;
 }
 
 section {
@@ -309,7 +310,7 @@ section {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .about .image {
@@ -322,8 +323,9 @@ section {
 
 .about .image img {
   width: 100%;
-  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4rem 4rem 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 15px rgba(0, 0, 0, 0.1);
+          
 }
 
 .about .content {
@@ -344,9 +346,7 @@ section {
   line-height: 2;
 }
 
-.shop .slide {
-  border: 0.2rem solid #10221b;
-}
+
 
 .shop .slide:hover .image .icons {
   -webkit-transform: translateY(0);
@@ -429,7 +429,6 @@ section {
 .packages .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #10221b;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
@@ -844,6 +843,7 @@ section {
     display: none;
   }
 }
+
 
 @media (max-width: 450px) {
   html {
