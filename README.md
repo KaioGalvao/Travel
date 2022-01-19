@@ -1,2 +1,2 @@
 # Travel
-Site de viagem
+Site de viagem desenvolvido com auxílio de video-aula.
